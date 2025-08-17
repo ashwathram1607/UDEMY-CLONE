@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+     
+}
+.navbar{
+   padding: 10px;
+    display: flex;
+   justify-content: space-between;
+   
+  gap: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.logo img{
+     width: 100px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: solid #B128F8 1px;
+    border-radius: 30px;
+    width: 60%;
+    padding: 10px
+ 
+    
+}
+.icons{
+  
+  display: flex;
+   gap: 20px;
+   margin-top: 10px
+}
+   
+
+.search input{
+    width: 100%;
+    border: none;
+
+}
+
+.search input:focus{
+    outline: none;
+}
